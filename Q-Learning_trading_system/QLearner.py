@@ -38,8 +38,6 @@ class QLearner(object):
         #set to 0.00001 to prevent from divide by zero exception
         self.TC = (np.ones([self.num_states, self.num_actions, self.num_states]) * .00001)
 
-    def author(self):
-        return 'ajoshi319'
 
     def querysetstate(self, s):
         """
