@@ -19,8 +19,4 @@ def best4RT(seed=42423423):
     Y =X ** 3 # non-linear function 
     return X, Y[:,0]
 
-def author(self):
-    return 'ajoshi319'
-
 if __name__ == "__main__":
-    print "AJ"
